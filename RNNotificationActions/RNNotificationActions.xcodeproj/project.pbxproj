@@ -108,6 +108,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 			);
 			mainGroup = E2B7F2261C36E6D800945232;
@@ -222,6 +223,7 @@
 					"$(SRCROOT)/../node_modules/react-native/React/**",
 					"$(SRCROOT)/../../react-native/React/**",
 					"$(SRCROOT)/../../../React/**",
+					"${SRCROOT}/../../../ios/Pods/Headers/**",
 				);
 				OTHER_LDFLAGS = (
 					"-ObjC",
@@ -241,6 +243,7 @@
 					"$(SRCROOT)/../node_modules/react-native/React/**",
 					"$(SRCROOT)/../../react-native/React/**",
 					"$(SRCROOT)/../../../React/**",
+					"${SRCROOT}/../../../ios/Pods/Headers/**",
 				);
 				OTHER_LDFLAGS = (
 					"-ObjC",
